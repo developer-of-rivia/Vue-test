@@ -1,15 +1,30 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ui-button>
+    Контент из app
+  </ui-button>
+
+
+  <service-item>
+    
+  </service-item>
+
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import UiButton from './components/UiButton.vue';
+import ServiceItem from './components/ServiceItem.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    UiButton,
+    ServiceItem,
   }
 }
 </script>
